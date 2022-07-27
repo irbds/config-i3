@@ -139,16 +139,12 @@ exec_always --no-startup-id $HOME/.config/polybar/polybar.sh
 ###########################################################
 ################## PLANO DE FUNDO #########################
 # Inicia o plano de fundo
-exec --no-startup-id feh --bg-fill ~/images/wall.png
+exec --no-startup-id feh --bg-fill ~/images/wall.jpg
 
 ###########################################################
 ################## JANELAS E NADA MAIS ####################
 # Remove titulo das abas
 default_border pixel 2
-
-# Gaps >//<
-gaps inner 9
-gaps outer 5
 
 # Transparencia no terminal
 exec --no-startup-id xcompmgr -c &
